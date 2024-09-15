@@ -1,0 +1,15 @@
+CREATE TABLE retail_data (
+    StockCode VARCHAR(255),
+    Quantity INT,
+    InvoiceDate TIMESTAMP,
+    UnitPrice DECIMAL(10, 2),
+    CustomerID INT,
+    CostPrice DECIMAL(10, 2),
+    Country VARCHAR(255),
+    Profit DECIMAL(10, 2),
+    Crisis VARCHAR(255),
+    Season VARCHAR(255),
+    Feedback VARCHAR(255),
+    PredictedEOGD DECIMAL(10, 2)
+);
+
